@@ -1,24 +1,22 @@
 {
   "name": "clase-1-lab",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "description": "Laboratorio base del programa Desarrollador Senior de Vibe Coding con OpenCode",
+  "main": "src/hello-node.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/hello-node.js",
+    "check": "node --version && npm --version",
+    "test": "node src/hello-node.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codestudio-uy/clase-1-lab.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/codestudio-uy/clase-1-lab/issues"
-  },
-  "homepage": "https://github.com/codestudio-uy/clase-1-lab#readme"
+  "keywords": [
+    "opencode",
+    "vibe-coding",
+    "wsl",
+    "node",
+    "python",
+    "docker",
+    "ai-agents"
+  ],
+  "author": "Alejandro / CodeStudio UY",
+  "license": "MIT"
 }

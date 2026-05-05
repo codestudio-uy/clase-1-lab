@@ -1,45 +1,30 @@
-# erificación de Node.js
+# Verificación de Node.js
 
 ## Qué es Node.js
+
 Node.js permite ejecutar JavaScript fuera del navegador.
 
-cat > docs/verification-node.md <<'OEF'
-# erificación de Node.js
-
-## Qué es Node.js
-Node.js permite ejecutar JavaScript fuera del navegador.
-
-
-## Para qué lo usamos
-Lo usaremos para crear aplicaciones web, dashboard, APIs, herramientas de desarrollo, automatizaciones y proyectos que OpenCode podrá modificar mas adelante.
+Con Node.js podemos usar JavaScript en la terminal, en servidores, en APIs, en dashboards, en chatbots y en herramientas profesionales.
 
 ## Qué es npm
-npm es el gestor de paquetes de Node.js. Sirve para instalar librerias y herramientas de JavaScript.
 
-## Comndos de verificación
-'''bash
-node --version
-npm --version
-cat > docs/verification-node.md <<'OEF'
-# erificación de Node.js
+npm es el gestor de paquetes de Node.js.
 
-## Qué es Node.js
-Node.js permite ejecutar JavaScript fuera del navegador.
+Sirve para instalar librerías, crear proyectos, ejecutar scripts y administrar dependencias.
 
-cat > docs/verification-node.md <<'OEF'
-# erificación de Node.js
+## Para qué lo usamos en este curso
 
-## Qué es Node.js
-Node.js permite ejecutar JavaScript fuera del navegador.
+Usaremos Node.js para:
+
+- Crear aplicaciones web.
+- Construir dashboards.
+- Crear APIs.
+- Ejecutar herramientas modernas de JavaScript.
+- Preparar proyectos que OpenCode podrá analizar y modificar.
+- Construir agentes con interfaz web.
+
+## Comandos de verificación
 
 
-## Para qué lo usamos
-Lo usaremos para crear aplicaciones web, dashboard, APIs, herramientas de desarrollo, automatizaciones y proyectos que OpenCode podrá modificar mas adelante.
-
-## Qué es npm
-npm es el gestor de paquetes de Node.js. Sirve para instalar librerias y herramientas de JavaScript.
-
-## Comndos de verificación
-'''bash
 node --version
 npm --version
